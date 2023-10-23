@@ -31,7 +31,7 @@ var refreshToken = function() {
 
 var logout = function() {
    
-    keycloak.logout({"redirectUri":"https://main.d3dmw610ehnj6o.amplifyapp.com/logout.html"});
+    keycloak.logout({"redirectUri":"http://127.0.0.1:5500/logout.html"});
 }
 
 
